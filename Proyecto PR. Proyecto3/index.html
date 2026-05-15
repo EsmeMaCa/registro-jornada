@@ -1,0 +1,52 @@
+<!doctype html>
+<!--documento html5 moderno-->
+
+<html lang="es">
+  <!--etiqueta inicial, indica que el contenido de la página está en español-->
+
+  <head>
+    <meta charset="UTF-8" />
+    <!--define la codificación de caracteres para que se vean las tildes y la ñ-->
+    <title>Fichaje Laboral</title>
+    <!--este es el nombre que aparece en la pestaña del navegador-->
+    <link rel="stylesheet" href="styles.css" />
+    <!--conecta esta página de html con el archivo de estillos css-->
+  </head>
+
+  <body>
+    <!--cuerpo de la página-->
+    <header class="header">
+      <!--clase header para aplicarle estilos propios-->
+      <h1>Libreria Tanaka</h1>
+      <!--título principal de la página, h1-->
+      <h2>Gestión de horas</h2>
+      <!--título secundario de la página, h2-->
+    </header>
+
+    <div class="container">
+      <!--contenedor que agrupa los botones principales de los empleados-->
+      <button data-url="1-mariaj.html">Maria J.</button>
+      <!--botón clicable-->
+      <button data-url="1-juan.html">Juan</button>
+      <!--botón clicable-->
+      <button data-url="1-mireia.html">Mireia</button>
+      <!--botón clicable-->
+      <button data-url="1-antonio.html">Antonio</button>
+      <!--botón clicable-->
+      <button data-url="1-mariam.html">Maria M.</button>
+      <!--botón clicable-->
+      <button data-url="1-jose.html">José</button>
+      <!--botón clicable-->
+
+      <!-- Zona donde cambia el contenido -->
+      <div id="contenido"></div>
+      <!--donde javascript pone la información de los empleados-->
+    </div>
+
+    <footer>13 de junio de 2026 18:00</footer>
+    <!--pie de página-->
+
+    <script src="script.js"></script>
+    <!--carga el archivo script.js que le da interacción a las páginas-->
+  </body>
+</html>
